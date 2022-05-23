@@ -1,6 +1,8 @@
 package com.example.ToDoList.user;
 
-public interface MemberRepository {
+import com.example.ToDoList.user.vo.User;
+
+public interface UserRepository {
 
     void save(User user);
 
