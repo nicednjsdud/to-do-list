@@ -1,4 +1,4 @@
-package com.example.ToDoList.user.vo;
+package com.example.ToDoList.user.dao;
 
 import com.example.ToDoList.user.vo.User;
 

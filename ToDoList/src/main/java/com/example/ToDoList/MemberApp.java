@@ -1,7 +1,7 @@
 package com.example.ToDoList;
 
 import com.example.ToDoList.user.vo.User;
-import com.example.ToDoList.user.vo.UserService;
+import com.example.ToDoList.user.dao.UserService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

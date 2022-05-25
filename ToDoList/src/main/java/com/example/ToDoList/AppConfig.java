@@ -1,12 +1,11 @@
 package com.example.ToDoList;
 
-import com.example.ToDoList.user.UserRepository;
-import com.example.ToDoList.user.dao.MemoryUserRepository;
-import com.example.ToDoList.user.vo.UserService;
-import com.example.ToDoList.user.vo.UserServiceImpl;
+import com.example.ToDoList.repository.UserRepository;
+import com.example.ToDoList.repository.MemoryUserRepository;
+import com.example.ToDoList.user.dao.UserService;
+import com.example.ToDoList.user.dao.UserServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
 
 @Configuration
 public class AppConfig {

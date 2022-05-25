@@ -1,9 +1,9 @@
 package com.example.ToDoList.user;
 
-import com.example.ToDoList.user.dao.MemoryUserRepository;
+import com.example.ToDoList.repository.MemoryUserRepository;
 import com.example.ToDoList.user.vo.User;
-import com.example.ToDoList.user.vo.UserService;
-import com.example.ToDoList.user.vo.UserServiceImpl;
+import com.example.ToDoList.user.dao.UserService;
+import com.example.ToDoList.user.dao.UserServiceImpl;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

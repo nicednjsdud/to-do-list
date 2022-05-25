@@ -1,7 +1,7 @@
-package com.example.ToDoList.user.vo;
+package com.example.ToDoList.user.dao;
 
-import com.example.ToDoList.user.UserRepository;
-import com.example.ToDoList.user.dao.MemoryUserRepository;
+import com.example.ToDoList.repository.UserRepository;
+import com.example.ToDoList.user.vo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

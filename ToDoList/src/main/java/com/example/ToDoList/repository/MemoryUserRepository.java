@@ -1,6 +1,6 @@
-package com.example.ToDoList.user.dao;
+package com.example.ToDoList.repository;
 
-import com.example.ToDoList.user.UserRepository;
+import com.example.ToDoList.repository.UserRepository;
 import com.example.ToDoList.user.vo.User;
 import org.springframework.stereotype.Component;
 

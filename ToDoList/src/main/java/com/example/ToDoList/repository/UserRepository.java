@@ -1,4 +1,4 @@
-package com.example.ToDoList.user;
+package com.example.ToDoList.repository;
 
 import com.example.ToDoList.user.vo.User;
 
